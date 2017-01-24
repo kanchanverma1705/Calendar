@@ -96,41 +96,13 @@
                                     <constraint firstItem="YSn-7t-OZK" firstAttribute="centerY" secondItem="17I-Tg-z8g" secondAttribute="centerY" id="y5Z-S4-Y0B"/>
                                 </constraints>
                             </view>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Event Title" borderStyle="roundedRect" placeholder="Event Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uv9-vX-afo">
-                                <rect key="frame" x="0.0" y="434" width="375" height="43.5"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Event Detail" borderStyle="roundedRect" placeholder="Event Details" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RFt-ZW-YZx">
-                                <rect key="frame" x="0.0" y="477.5" width="375" height="146"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8u-Xw-37L">
-                                <rect key="frame" x="0.0" y="623.5" width="375" height="43.5"/>
-                                <state key="normal" title="Add event"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="17I-Tg-z8g" firstAttribute="height" secondItem="9GD-rh-QxZ" secondAttribute="height" multiplier="0.65" id="0Zx-SX-8Nd"/>
                             <constraint firstItem="17I-Tg-z8g" firstAttribute="centerX" secondItem="9GD-rh-QxZ" secondAttribute="centerX" id="27x-kC-Qxw"/>
-                            <constraint firstItem="k8u-Xw-37L" firstAttribute="width" secondItem="RFt-ZW-YZx" secondAttribute="width" id="2Mo-rx-vrx"/>
-                            <constraint firstItem="k8u-Xw-37L" firstAttribute="top" secondItem="RFt-ZW-YZx" secondAttribute="bottom" id="4up-Sg-IXP"/>
-                            <constraint firstItem="RFt-ZW-YZx" firstAttribute="top" secondItem="Uv9-vX-afo" secondAttribute="bottom" id="J6Y-fi-ZOF"/>
                             <constraint firstItem="17I-Tg-z8g" firstAttribute="width" secondItem="9GD-rh-QxZ" secondAttribute="width" id="K8k-bS-MUT"/>
-                            <constraint firstItem="RFt-ZW-YZx" firstAttribute="width" secondItem="Uv9-vX-afo" secondAttribute="width" id="KNE-9F-9xd"/>
-                            <constraint firstItem="RFt-ZW-YZx" firstAttribute="leading" secondItem="9GD-rh-QxZ" secondAttribute="leading" id="NlV-uk-gAM"/>
-                            <constraint firstItem="k8u-Xw-37L" firstAttribute="height" secondItem="Uv9-vX-afo" secondAttribute="height" id="QgE-NO-H9o"/>
-                            <constraint firstItem="Uv9-vX-afo" firstAttribute="top" secondItem="17I-Tg-z8g" secondAttribute="bottom" id="U3M-K4-eHf"/>
-                            <constraint firstItem="Uv9-vX-afo" firstAttribute="height" secondItem="17I-Tg-z8g" secondAttribute="height" multiplier="0.1" id="WQF-Z5-6Zv"/>
-                            <constraint firstItem="Uv9-vX-afo" firstAttribute="width" secondItem="17I-Tg-z8g" secondAttribute="width" id="e1W-eU-Qe0"/>
-                            <constraint firstItem="Uv9-vX-afo" firstAttribute="leading" secondItem="17I-Tg-z8g" secondAttribute="leading" id="egM-YG-Y96"/>
                             <constraint firstItem="17I-Tg-z8g" firstAttribute="top" secondItem="9GD-rh-QxZ" secondAttribute="top" id="rM7-dl-Zbd"/>
-                            <constraint firstItem="wbh-Dh-BY9" firstAttribute="top" secondItem="k8u-Xw-37L" secondAttribute="bottom" id="uc0-ku-aGH"/>
-                            <constraint firstItem="k8u-Xw-37L" firstAttribute="leading" secondItem="Uv9-vX-afo" secondAttribute="leading" id="zX1-te-wGh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="h94-t0-tRd">

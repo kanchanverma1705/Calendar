@@ -6,13 +6,14 @@
 //  Copyright © 2017 anyone. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>// create enum for color condition
+#import <UIKit/UIKit.h>
+@protocol calendarDel <NSObject>
 
-//@protocol calendarDel <NSObject>
-//
-//-(void)getValues;
-//
-//@end
+-(NSString*)getDateValueforIndex:(NSIndexPath*)index;//override for calculating value
+-(UIColor*)getColorforCase:(NSInteger)caseOfCalendar;//override for color
+
+@end
 
 
 @interface CalendarSetting : NSObject

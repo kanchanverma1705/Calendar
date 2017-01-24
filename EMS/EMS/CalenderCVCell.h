@@ -11,7 +11,7 @@
 #import "AppDelegate.h"
 @interface CalenderCVCell : UICollectionViewCell
 @property (strong, nonatomic) IBOutlet UILabel *date_label;
--(UIView*)setTxtforCell:(NSIndexPath*)index withinst:(CalendarSetting*)instan;
+-(UIView*)setTxtforCell:(NSIndexPath*)index withText:(NSString*)dateValue andcolor:(UIColor*)DateColor;
 @property(strong,nonatomic) NSArray<NSString*> *days;
 -(void)setbase:(NSInteger)num_days currentdt:(NSInteger)date;
 //@property(strong,nonatomic) NSArray *days;

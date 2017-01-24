@@ -46,7 +46,7 @@
     NSDate *someDate = [_cal dateByAddingUnit:NSCalendarUnitDay value:-(_currentdt-1) toDate:_currentDate options:0];
     NSLog(@"for current month %@", [format stringFromDate:someDate]);
     _presentMFD=[_weekdays indexOfObject:[format stringFromDate:someDate]];
-    NSLog(@" index number for current month %lu",_presentMFD);
+    NSLog(@" index number for current month %lu",(long)_presentMFD);
 }
 -(NSString *)setTitle{
     
@@ -57,6 +57,9 @@
 return  [format stringFromDate:_currentDate];
 
 }
+
+
+
 
 //-(void)NextMonthSettings:(NSString *)withmode{
 //    if([withmode isEqualToString:@"setup"]){

@@ -10,7 +10,7 @@
 #import "CalenderCVCell.h"
 #import "CalendarSetting.h"
 #import "AppDelegate.h"
-@interface ViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface ViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource,calendarDel>
 @property (strong,nonatomic)NSDate *date;
 @property (strong, nonatomic) IBOutlet UICollectionView *CalendarView;
 @property(strong,nonatomic)NSArray *months;
